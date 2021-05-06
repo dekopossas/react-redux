@@ -2,7 +2,7 @@ import React from 'react'
 class Sidebar extends React.Component {
 
   render() {
-    const { categories } = this.state
+    const { categories } = this.props
 
     return (
       <aside>
