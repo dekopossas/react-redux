@@ -1,9 +1,10 @@
 import React from 'react';
+import Sidebar from './components/Sidbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Redux Hello World!</h1>
+      <Sidebar />
     </div>
   );
 };
