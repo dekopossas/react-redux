@@ -19,6 +19,9 @@ tendo em vista que o ambiente já está familiarizado.
 
 devido essa mudança, achei mais relevante deletar todos os arquivos, faze-los do zero.
 
+segue próximo de adicionar o redux o app transforma sidebar em um function componet
+acredito ser mais viavel mater como class e evitar a troca repentina de conteúdo.
+
 ### Notion
 
 [ ] Explicar rapidamente sobre o app poder do react.
