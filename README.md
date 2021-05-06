@@ -10,3 +10,9 @@ src/App.css
 src/App.test.js
 src/index.css
 src/logo.svg
+
+
+## Mudanças
+primeira mudança relevante na forma como ta sendo apresentado o conteúdo é:
+começar criando o app ja em formato de class, para evitar de mudar no meio do caminho
+tendo em vista que o ambiente já está familiarizado.
