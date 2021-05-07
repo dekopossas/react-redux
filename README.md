@@ -24,7 +24,7 @@ acredito ser mais viavel mater como class e evitar a troca repentina de conteúd
 
 ### Notion
 
-[ ] Explicar rapidamente sobre o app poder do react.
+[ ] Explicar rapidamente sobre o app poder do redux.
 [ ] Revendo coceitos da aula passada.
 [ ] Criar uma aplicação react.
 [ ] Apagar todos os arquivos, e porque.
