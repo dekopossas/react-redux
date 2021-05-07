@@ -9,6 +9,7 @@ const INITIAL_STATE = {
 function movieReducer(state = INITIAL_STATE, action) {
   if(action.type === "SELECT_MOVIE") {
     return {
+      ...state,
       selectedCategory: action.category,
       selectedMovie: action.movie,
     }
