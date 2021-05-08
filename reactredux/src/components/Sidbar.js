@@ -24,6 +24,10 @@ class Sidebar extends React.Component {
       </aside>
     )
   }
-}
+};
 
-export default connect() (Sidebar);
+const mapStateToProps = (state) => ({
+  categories: state.movieReducer.categories,
+});
+
+export default connect(mapStateToProps) (Sidebar);
