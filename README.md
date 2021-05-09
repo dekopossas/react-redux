@@ -22,3 +22,9 @@ git checkout aula-alvivo
 ## Iniciando o projeto.
 Faça o passo a passo junto com o vídeo. Criei uma abertura especial para vocês, vejo vocês lá.
 
+## Criei um app react
+```bash
+npx create-react-app reactredux
+```
+
+## apague todo os arquivos e criei um 
