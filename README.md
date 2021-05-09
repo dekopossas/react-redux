@@ -1,30 +1,24 @@
-# react-redux
-Repositório dedicado ao treino de React Redux
+# React Redux
 
+## Link da vídeo aula:
+www.youtube.com
 
-### Inicio.
-instalei um app react e escolhi nao deletar nada em detrimeto do tempo, essa aula não será fácil.
+## Link para notion da aula:
+https://www.notion.so/react-redux-5e6aebad77d64e919531eb536b4a4e25
 
-mudei de ideia deletei os arquivos que ninguem usa
-src/App.css
-src/App.test.js
-src/index.css
-src/logo.svg
+sertifique-se de copiar o check list para sua conta, para que tenho melhor proveito das funções do NOTION.
 
+## Clone o repositório.
+```bash
+git clone git@github.com:dekopossas/react-redux.git
+```
 
-### Mudanças
-primeira mudança relevante na forma como ta sendo apresentado o conteúdo é:
-começar criando o app ja em formato de class, para evitar de mudar no meio do caminho
-tendo em vista que o ambiente já está familiarizado.
+## Consultando o Código.
+Se você não pretende refazer os paços, quer apenas consultar o codigo, de um checkout na branch da aula-alvivo
+```bash
+git checkout aula-alvivo
+```
 
-devido essa mudança, achei mais relevante deletar todos os arquivos, faze-los do zero.
+## Iniciando o projeto.
+Faça o passo a passo junto com o vídeo. Criei uma abertura especial para vocês, vejo vocês lá.
 
-segue próximo de adicionar o redux o app transforma sidebar em um function componet
-acredito ser mais viavel mater como class e evitar a troca repentina de conteúdo.
-
-### Notion
-
-[ ] Explicar rapidamente sobre o app poder do redux.
-[ ] Revendo coceitos da aula passada.
-[ ] Criar uma aplicação react.
-[ ] Apagar todos os arquivos, e porque.
