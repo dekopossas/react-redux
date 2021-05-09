@@ -1,9 +1,10 @@
 import React from 'react'
 import { connect } from 'react-redux';
+import selectMovie from '../actions/movieAction';
 class Sidebar extends React.Component {
 
   render() {
-    const { categories } = this.props
+    const { categories, dispatch } = this.props
 
     return (
       <aside>
@@ -14,7 +15,12 @@ class Sidebar extends React.Component {
               <ul>
                 {
                   category.movies.map(movie => (
-                    <li key={movie.id}>{movie.title} was released in {movie.released}</li>
+                    <li key={movie.id}>
+                      {movie.title} was released in {movie.released}
+                      <button onClick={() => dispatch(selectMovie(category, movie))}>
+                        Selecionar
+                      </button>
+                    </li>
                   ))
                 }
               </ul>

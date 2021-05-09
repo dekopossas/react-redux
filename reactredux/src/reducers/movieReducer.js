@@ -7,6 +7,7 @@ const INITIAL_STATE = {
 };
 
 function movieReducer(state = INITIAL_STATE, action) {
+  console.log('teste');
   if(action.type === "SELECT_MOVIE") {
     return {
       ...state,
