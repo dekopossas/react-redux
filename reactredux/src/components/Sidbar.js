@@ -30,4 +30,4 @@ class Sidebar extends React.Component {
 //   categories: state.movieReducer.categories,
 // });
 
-export default connect( state => ({ categories: state.movieReducer.categories })) (Sidebar);
+export default connect(state => ({ categories: state.movieReducer.categories })) (Sidebar);
