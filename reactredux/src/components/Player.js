@@ -6,8 +6,8 @@ class Player extends React.Component {
     const { selectedMovie, selectedCategory } = this.props
     return (
       <div>
-        <h1>Categoria {selectedCategory.name}</h1>
-        <h2>Filme {selectedMovie.title}</h2>
+        <h1>Categoria: {selectedCategory.name}</h1>
+        <h2>Filme: {selectedMovie.title}</h2>
       </div>
     )
   }
