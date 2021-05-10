@@ -11,7 +11,10 @@ const categories = [
   {
     id: 2,
     name: 'Action',
-    movies: [{ id: 4, title: 'Shooter', released: 2007 }],
+    movies: [
+      { id: 4, title: 'Shooter', released: 2007 },
+      { id: 7, title: 'velozes e super furiosos', released: 2022},
+    ],
   },
   {
     id: 3,

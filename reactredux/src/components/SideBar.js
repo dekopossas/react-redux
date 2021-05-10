@@ -1,17 +1,10 @@
 import React from 'react';
-import categories from '../data';
-
+import { connect } from 'react-redux';
+import * as MovieAction from '../actions/movieAction';
 class SideBar extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      categories: [...categories]
-    }
-  }
 
   render() {
-    const { categories } = this.state;
+    const { categories, selectedMovie } = this.props;
 
     return (
       <div>
@@ -22,7 +15,12 @@ class SideBar extends React.Component {
               <ul>
                 {
                   category.movies.map(movie => (
-                    <li key={movie.id}>filme: {movie.title} foi feito em: {movie.released}</li>
+                    <li key={movie.id}>
+                      filme: {movie.title} foi feito em: {movie.released}
+                      <button type="button" onClick={() => selectedMovie(category, movie)}>
+                        Seleccionar
+                      </button>
+                    </li>
                   ))
                 }
               </ul>
@@ -34,5 +32,12 @@ class SideBar extends React.Component {
   }
 }
 
+const mapStateToProps = (state) => ({
+  categories: state.movieReducer.categories,
+});
 
-export default SideBar;
+const mapDispatchToProps = (dispatch) => ({
+  selectedMovie: (category, movie) => dispatch(MovieAction.selectedMovie(category, movie)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps) (SideBar);
