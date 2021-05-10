@@ -36,9 +36,9 @@ npx create-react-app reactredux
 ```
 
 ## Apague os arquivos.
-Dentro de SRC apague todos os arquivos, pois não precisaremos deles.
+Dentro de SRC apague todos os arquivos de menos index.js e app.js
 
-- Crie o arquivo src/app.js assim:
+- Modifique o arquivo src/app.js assim:
 
 ```javascript
 import React from 'react';
@@ -57,7 +57,7 @@ class App extends React.Component {
 export default App;
 ```
 
-- Depois crie o arquivo src/index.js:
+- Depois modifique o arquivo src/index.js:
 
 ```javascript
 import React from 'react';
