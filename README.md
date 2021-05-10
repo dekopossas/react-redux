@@ -69,3 +69,5 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ## Pronto para começar.
 
 Não se esqueça de que sempre que precisar pode entrar na branch aula-aovivo para consultar o meu código.
+
+Começando a aula-aovivo.
