@@ -1,21 +1,15 @@
-import React from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from 'react'
 
-class Player extends React.Component {
+class Player extends Component {
   render() {
-    const { selectedMovie, selectedCategory } = this.props
     return (
       <div>
-        <h1>Categoria: {selectedCategory.name}</h1>
-        <h2>Filme: {selectedMovie.title}</h2>
+        <h1>Categoria 1</h1>
+        <h2>Filme 1</h2>
       </div>
     )
   }
-};
+}
 
-const mapStateToProps = (state) => ({
-  selectedCategory: state.movieReducer.selectedCategory,
-  selectedMovie: state.movieReducer.selectedMovie,
-});
 
-export default connect(mapStateToProps) (Player) ;
+export default Player;
