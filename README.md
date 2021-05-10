@@ -6,6 +6,7 @@ www.youtube.com
 ## Link para notion da aula:
 https://www.notion.so/react-redux-5e6aebad77d64e919531eb536b4a4e25
 
+
 Certifique-se de copiar o check list para sua conta, para que tenha melhor proveito das funções do NOTION.
 
 ## Clone o repositório.
@@ -14,6 +15,7 @@ git clone git@github.com:dekopossas/react-redux.git
 ```
 
 ## Consultando o Código.
+
 Se você não pretende refazer os passos, quer apenas consultar o código, de um checkout na branch da aula-aovivo.
 ```bash
 git checkout aula-aovivo
@@ -21,6 +23,7 @@ git checkout aula-aovivo
 
 ## Iniciando o projeto.
 Faça o passo a passo junto com o vídeo. Criei uma abertura especial para vocês, vejo vocês lá.
+
 
 ## Crie uma branch.
 Não se esqueça de criar a sua própria branch para ficar livre com suas ideias e brincadeiras sem mexer
