@@ -1,17 +1,9 @@
 import React from 'react';
-import categories from '../data';
 
 class SideBar extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      categories: [...categories]
-    }
-  }
 
   render() {
-    const { categories } = this.state;
+    const { categories } = this.props;
 
     return (
       <div>
