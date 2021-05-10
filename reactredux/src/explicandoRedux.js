@@ -1,11 +1,6 @@
-function dekinhoSelecao (category, movie) {
-  return {
-    category,
-    movie,
-  }
+function somar (a, b) {
+  const resultado = a + b;
+  return resultado
 };
 
-const papel = dekinhoSelecao('terror', 'buneco chuck');
-
-
-console.log(papel.category);
+console.log(somar(2, 3));
