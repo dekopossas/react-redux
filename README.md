@@ -71,3 +71,10 @@ ReactDOM.render(<App />, document.getElementById('root'));
 Não se esqueça de que sempre que precisar pode entrar na branch aula-aovivo para consultar o meu código.
 
 Começando a aula-aovivo.
+
+## Contato. [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andrepossas/)](https://www.linkedin.com/in/andrepossas/)
+Pessoal, se precisarem de ajuda, precisarem tirar alguma dúvida, feedbacks, networking qualquer coisa podem me mandar mensagem no linkedin.
+Estarei a disposição para ajudar.
+Siga firme! bora codar.
+
+
