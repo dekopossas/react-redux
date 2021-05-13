@@ -1,7 +1,7 @@
 # React Redux
 
 ## Link da vídeo aula:
-www.youtube.com
+https://www.youtube.com/watch?v=9J71DvL9x2I
 
 ## Link para notion da aula:
 https://www.notion.so/react-redux-5e6aebad77d64e919531eb536b4a4e25
